@@ -300,15 +300,28 @@ section.pricing {
     .pricing .card:hover .btn {
       opacity: 1;
     }
-
     
   }
 
   @media(max-width: 950px){
 
     .titulo{
-        font-size: 800%;
+        font-size: 700%;
     }
+
+    .viper{
+        display: none;
+    }
+
+  }
+
+  @media(max-width: 800px){
+
+    .titulo{
+        font-size: 500%;
+    }
+   
+        
   }
 
   footer{
