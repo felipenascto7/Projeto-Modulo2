@@ -218,6 +218,57 @@ body{
     box-shadow:300px 0 0 #83063a inset;
 }
 
+/* TEXTO AO CENTRO DA PÁGINA */
+
+.texto-main {
+    color: white;
+    height: 100%;
+    background-image: url(../game-wallpaper\ 02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-corpo{
+    margin-left: 10%;
+    width: auto;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+}
+
+.texto-corpo{
+    border-bottom: 10px;
+    border-color: #5B0C65;
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: #f5f3f3;
+    width: 100%;    
+    text-shadow: 0 0 1px #c40b58,
+                 0 0 16px #c40b58;
+}
+
+strong {    
+    text-shadow: 0 0 1px #c40b58,
+            0 0 2px #c40b58,
+            0 0 4px #c40b58,
+            0 0 8px #c40b58,
+            0 0 16px #c40b58;
+}
+
 /* BOOTSTRAP PARTE DOS CARDS DE PRICING */
 
 .planos{
@@ -335,6 +386,14 @@ section.pricing {
 
 .infoAdicionais{
     padding-top: 5%;
+}
+
+.accordion-item{
+    width: 90%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 ::-webkit-scrollbar{
